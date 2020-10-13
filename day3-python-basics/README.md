@@ -111,11 +111,20 @@ else:
   #trigger this statement if everything else if false
  ```
  
- ## if statement conditions
+ ## Operators
+ ### Assignment operators
 - equals: `==`
 - not equals: `!=`
-- and: `and`
 
+ ### Arithmetic operators
+- addition: `+`
+- subtraction: `-`
+- multiplication: `*`
+- division: `/`
+
+### Logical operators
+- `and, or, not`
+ 
  ## Looping
 Looping is useful to iterate each element in a list instead of repetitively typing conditions for each element.
  ### for loop
