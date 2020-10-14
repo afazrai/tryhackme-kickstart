@@ -49,10 +49,10 @@ Use Python to automate the boring stuff! Programming is like having a super powe
 - running python program
   - python file-name.py
  
- # Installing python
+ ## Installing python
  [Download Python here!](https://www.python.org/downloads/)
  
- # Hello world!
+ ## Hello world!
 ```python
 print("Hello world!")
 ```
@@ -77,7 +77,16 @@ x = "abc"
 """
 ```
 
-## Data types
+## Variables
+We can assign values into variables.
+- Variable names must start with alphabets or underscore
+- Use names other than Python keywords (`and, if, else`)
+```python
+x = "abc"
+y = 123
+```
+
+# Data types
 You don't need to declare data types for variables in Python, and you can change it later.
 - string: `"apple"`
 - integer: `1`
@@ -90,18 +99,22 @@ You don't need to declare data types for variables in Python, and you can change
 - tuple: `("apple", "bear")`
 - dict: `{"fruit": "apple"}`
   - key-value pairs
+ 
+ # Operators
+ ## Assignment operators
+- equals: `==`
+- not equals: `!=`
 
-## Variables
-We can assign values into variables.
-- Variable names must start with alphabets or underscore
-- Use names other than Python keywords (`and, if, else`)
-```python
-x = "abc"
-y = 123
-```
+ ## Arithmetic operators
+- addition: `+`
+- subtraction: `-`
+- multiplication: `*`
+- division: `/`
 
-
-## if statements  
+## Logical operators
+- `and, or, not`
+  
+# Python conditions & if statements  
 ```python
 if(condition):
   #trigger this statement
@@ -111,23 +124,9 @@ else:
   #trigger this statement if everything else if false
  ```
  
- ## Operators
- ### Assignment operators
-- equals: `==`
-- not equals: `!=`
-
- ### Arithmetic operators
-- addition: `+`
-- subtraction: `-`
-- multiplication: `*`
-- division: `/`
-
-### Logical operators
-- `and, or, not`
- 
- ## Looping
+# Looping
 Looping is useful to iterate each element in a list instead of repetitively typing conditions for each element.
- ### for loop
+ ## for loop
 For loops compares elements if the conditition is met.
  ```python
 foods = ["apple", "banana", "chicken"]
@@ -137,7 +136,8 @@ for food in foods:
 for index in range(10):
   print(index)
  ```
- ### while loop
+ 
+## while loop
 While loop compares elements until the condition is no longer met, with 3 components (initialization, condition, increment). 
 ```python
 index = 1
@@ -145,7 +145,7 @@ while index < 10:
   print(index)
 ```
  
- ## Functions
+# Functions
 A function is a block of code that only runs when it is called, this allows reusability of codes.
 - You may or may not pass any parameters into a function
 - You may or may not have return data
