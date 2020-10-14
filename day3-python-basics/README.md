@@ -114,7 +114,7 @@ You don't need to declare data types for variables in Python, and you can change
 ## Logical operators
 - `and, or, not`
   
-# Python conditions & if statements  
+# Python conditions & `if` statements  
 ```python
 if(condition):
   #trigger this statement
@@ -126,7 +126,7 @@ else:
  
 # Looping
 Looping is useful to iterate each element in a list instead of repetitively typing conditions for each element.
- ## for loop
+ ## `for` loop
 For loops compares elements if the conditition is met.
  ```python
 foods = ["apple", "banana", "chicken"]
@@ -137,7 +137,7 @@ for index in range(10):
   print(index)
  ```
  
-## while loop
+## `while` loop
 While loop compares elements until the condition is no longer met, with 3 components (initialization, condition, increment). 
 ```python
 index = 1
@@ -147,8 +147,8 @@ while index < 10:
  
 # Functions
 A function is a block of code that only runs when it is called, this allows reusability of codes.
-- You may or may not pass any parameters into a function
-- You may or may not have return data
+- you may or may not pass any parameters into a function
+- you may or may not have return data
 ```python
 def greeting():
   print("Hello there")
@@ -160,3 +160,80 @@ def greeting(number):
   return number + 1
 ```
  
+# Simple data structure
+Use pre-built functions to interact with your lists.
+`foods = ["apple", "banana", "chicken"]`
+- adding an element: `foods.append("donut")`
+- removing an element:
+  - specifying the index: `food.pop(0)` 
+  - specifying the element: `food.remove(apple)`
+
+# Classes
+## Understanding class
+Use class to build blueprints for objects.
+Create a class named `Fruit`, with a property named `a`
+```python
+class Fruit:
+  apple = "sweet"
+  berry = "sour"
+ ```
+ 
+ Print the value of berry!
+ - create an object of name `x`
+ ```python
+x = Fruit()
+print(x.berry())
+ ``` 
+
+## `___init___()` function
+- for real life applications, use the `__init__()` function to assign values.
+- the `__init__()` function is called automatically every time the class is being used to create a new object.
+
+Create a class named `Fruit`, use the `__init__()` function to assign values for name and colour.
+```python
+class Fruit:
+  def ___init__(self, name, colour):
+    self.name = name
+    self.colour = colour
+    
+fruit_1 = Fruit("apple", "red")
+ ```
+ 
+##  More functions in a class
+We can always add another function in our classes.
+```python
+class Fruit:
+  def ___init__(self, name, colour):
+    self.name = name
+    self.colour = colour
+  
+  def print_fruit_colour(self):
+    print("Fruit colour is" + self.colour)
+    
+print_fruit_colour()
+ ```
+ 
+# Inheritance
+- parent class: the class that is being inherited from
+  - also called base class
+- child class: the class that inherits from another class
+  - also called derived class
+ 
+## Inherit the parent class with another property
+- Use `super()` to inherit property and method of parent class
+
+```python
+class Fruit:
+  def __init__(self, name, colour):
+    self.name = name
+    self.colour = colour
+
+class Seedless(Fruit):
+  def __init__(self, name, colour, price):
+    super().__init__(name, colour) #we maintain name and colour from the main class
+    self.price = price
+
+x = Seedless("grape", "purple", 1.0)
+print(x.price)
+```
+*Having errors? Double check your variable names & parameters*
