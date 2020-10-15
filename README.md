@@ -12,4 +12,4 @@ TryHackMe is an online platform that teaches cyber security through a mixture of
 
 IMHO, TryHackMe is truly beginner friendly, unlike HackTheBox to start learning cyber security.
 
-*Disclaimer: The sole existence for this repo is for educational purposes only, not intended for copyright infringements. Please message me if there are issues regarding this knowledge sharing.*
+*Disclaimer: The sole existence for this repo is for educational purposes only, not intended for copyright infringements. Please send me a message if there are issues regarding this knowledge sharing.*
