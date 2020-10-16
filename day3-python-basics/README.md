@@ -148,6 +148,11 @@ while index < 10:
  
 # Functions
 A function is a block of code that only runs when it is called, this allows reusability of codes.
+```python
+def function_name(parameter):
+  #statements
+```
+
 - you may or may not pass any parameters into a function
 - you may or may not have return data
 ```python
