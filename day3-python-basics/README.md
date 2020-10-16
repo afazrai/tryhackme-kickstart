@@ -143,6 +143,7 @@ While loop compares elements until the condition is no longer met, with 3 compon
 index = 1
 while index < 10:
   print(index)
+  i = i + 1
 ```
  
 # Functions
