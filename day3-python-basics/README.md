@@ -127,7 +127,7 @@ else:
 # Looping
 Looping is useful to iterate each element in a list instead of repetitively typing conditions for each element.
  ## `for` loop
-For loops compares elements if the conditition is met.
+For loops compare elements if the conditition is met.
  ```python
 foods = ["apple", "banana", "chicken"]
 for food in foods:
