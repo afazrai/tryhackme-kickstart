@@ -248,6 +248,7 @@ print(x.price)
 Usually pip comes with Python installation.
 - pip is a package manager for Python packages.
 - use pip to install, update and remove packages
+
 Use a package from https://pypi.org/!
 - direct to a folder
 - execute `pip install package_name`
