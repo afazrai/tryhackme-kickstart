@@ -243,3 +243,21 @@ x = Seedless("grape", "purple", 1.0)
 print(x.price)
 ```
 *Having errors? Double check your variable names & parameters*
+
+# Package Manager
+Usually pip comes with Python installation.
+- pip is a package manager for Python packages.
+- use pip to install, update and remove packages
+Use a package from https://pypi.org/!
+- direct to a folder
+- execute `pip install package_name`
+- example: I want to capitalize the first letter of each word
+  - execute `pip install camelcase`
+  - use `camelcase` in your program
+```python
+from camelcase import CamelCase
+
+ccase = CamelCase()
+text = "i love python"
+print(ccase.hump(text))
+```      
