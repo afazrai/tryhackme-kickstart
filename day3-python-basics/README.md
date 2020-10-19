@@ -188,7 +188,7 @@ class Fruit:
  - create an object of name `x`
  ```python
 x = Fruit()
-print(x.berry())
+print(x.berry)
  ``` 
 
 ## `___init___()` function
@@ -198,7 +198,7 @@ print(x.berry())
 Create a class named `Fruit`, use the `__init__()` function to assign values for name and colour.
 ```python
 class Fruit:
-  def ___init__(self, name, colour):
+  def __init__(self, name, colour):
     self.name = name
     self.colour = colour
     
@@ -209,7 +209,7 @@ fruit_1 = Fruit("apple", "red")
 We can always add another function in our classes.
 ```python
 class Fruit:
-  def ___init__(self, name, colour):
+  def __init__(self, name, colour):
     self.name = name
     self.colour = colour
   
