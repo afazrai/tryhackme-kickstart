@@ -1,5 +1,8 @@
 # Introduction to the skills of pentesting
 
+## Create your TryHackMe account!
+After registering your account, I 
+
 ## Researching 
 When encountering problems that you cannot solve, how are you going to keep going?
 It is normal not to know everything, therefore one should have a reliable source of reference for knowledge base.
