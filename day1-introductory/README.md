@@ -1,17 +1,26 @@
 # Introduction to the skills of pentesting
 
-## Create your TryHackMe account!
-After registering your account, I 
+## Create a TryHackMe account!
+After account registration, the sidebar is where I should start. "Learning Paths" makes the most sense in this case. Even doing anything in life, we need to have specific goals to reach. When things get tough, there is still something to follow. 
+
+### Basic things to do
+To hack machines in TryHackMe, there are 2 ways
+- Connect using OpenVPN (free)
+  - Download OpenVPN
+  - Install configuration file
+  - Run OpenVPN
+  - Check status
+- Connect using Browser Kali Machine (premium feature)
 
 ## Researching 
-When encountering problems that you cannot solve, how are you going to keep going?
+When encountering problems that cannot be solved, how to keep going?
 It is normal not to know everything, therefore one should have a reliable source of reference for knowledge base.
 Google is a very useful search engine in information security.
 
-## Vulnerability searching
+### Vulnerability searching
 Content Management Systems (CMS) like Wordpress, FuelCMS, Ghost are among the popular target. CMSs are meant to ease the process of setting up websites and hackers take the advantage of this convenience to their benefit.
 
-### Out of the box exploits
+#### Out of the box exploits
 There are also ready-to-use exploits that can be downloaded. Figuring out the version of the target CMS is an important step in reconnaissance.
 These 3 websites are useful if we want to search for the exploits related to a specific software.
 - [ExploitDB](https://www.exploit-db.com/)
@@ -21,4 +30,9 @@ These 3 websites are useful if we want to search for the exploits related to a s
 NVD keeps track of exploits in the following form:
 CVE-YEAR-IDNUMBER
 
-###
+#### Exploit searching 
+Search for exploits on [ExploitDB](https://www.exploit-db.com/). Say that we are looking for exploits on a Wordpress:
+- Your personal Kali machine
+  - Use the command `searchsploit wordpress`
+- The website
+  - 
