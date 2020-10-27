@@ -31,8 +31,12 @@ NVD keeps track of exploits in the following form:
 CVE-YEAR-IDNUMBER
 
 #### Exploit searching 
-Search for exploits on [ExploitDB](https://www.exploit-db.com/). Say that we are looking for exploits on a Wordpress:
-- Your personal Kali machine
-  - Use the command `searchsploit wordpress`
+Search for exploits on [ExploitDB](https://www.exploit-db.com/). Say that I am looking for exploits on a FuelCMS:
+- Personal Kali machine
+  - Use the command `searchsploit fuelcms`
 - The website
-  - 
+  - Type "fuelcms" in the search bar and hit enter
+  - The only FuelCMS exploit with CVE number is 1.4.1
+  - Learn more about the exploit by clicking on the exploit
+
+### Utilizing manual pages on the console
