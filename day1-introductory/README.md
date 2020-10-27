@@ -40,3 +40,15 @@ Search for exploits on [ExploitDB](https://www.exploit-db.com/). Say that I am l
   - Learn more about the exploit by clicking on the exploit
 
 ### Utilizing manual pages on the console
+We can use the manual page when interacting with the tools inside the terminal.
+- For example: How to use the `ssh` command?
+  - Invoke `man ssh` to get the manual page for SSH
+  - Referring "DESCRIPTION", invoke `ssh user@hostname` to use SSH
+- Switches
+  - Include switches to make the command execute the other tasks
+    - How can we see the version of our SSH?
+    - The switch `-V` will do the job
+    - The full command: `ssh -V`
+- Search with the `grep` command
+  - Filter out everything else and search specifically for what we require
+    - Invoke `man ssh | grep -e "version number"`
