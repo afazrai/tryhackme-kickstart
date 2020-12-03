@@ -57,6 +57,29 @@ Use Python to automate the boring stuff! Programming is like having a super powe
 print("Hello world!")
 ```
 
+# Data types
+You don't need to declare data types for variables in Python, and you can change it later.
+- string: `"apple"`
+- integer: `1`
+- boolean: `True`
+- float: `1.0`
+- list: `["apple", "bear"]`
+  - may contain duplicate element
+  - elements maintain their order
+  - counted from 0
+- tuple: `("apple", "bear")`
+- dict: `{"fruit": "apple"}`
+  - key-value pairs
+ 
+## Variables
+We can assign values into variables.
+- Variable names must start with alphabets or underscore
+- Use names other than Python keywords (`and, if, else`)
+```python
+x = "abc"
+y = 123
+```
+ 
 # Python syntax
 ## Indentation
 Indentation indicates a block of code. It must be consistent throughout the end of the source code.
@@ -75,30 +98,7 @@ Wrap everything inside 3 double quotes.
 # This line of code is to assign abc into x
 x = "abc"
 """
-```
-
-## Variables
-We can assign values into variables.
-- Variable names must start with alphabets or underscore
-- Use names other than Python keywords (`and, if, else`)
-```python
-x = "abc"
-y = 123
-```
-
-# Data types
-You don't need to declare data types for variables in Python, and you can change it later.
-- string: `"apple"`
-- integer: `1`
-- boolean: `True`
-- float: `1.0`
-- list: `["apple", "bear"]`
-  - may contain duplicate element
-  - elements maintain their order
-  - counted from 0
-- tuple: `("apple", "bear")`
-- dict: `{"fruit": "apple"}`
-  - key-value pairs
+``` 
  
  # Operators
  ## Assignment operators
